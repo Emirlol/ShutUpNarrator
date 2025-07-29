@@ -5,6 +5,11 @@
 	"name": "ShutUpNarrator",
 	"description": "Removes the narrator from Minecraft.",
 	"authors": [ "Rime" ],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/shut-up-narrator",
+		"sources": "https://github.com/Emirlol/ShutUpNarrator",
+		"issues": "https://github.com/Emirlol/ShutUpNarrator/issues"
+	},
 	"license": "All-Rights-Reserved",
 	"mixins": [
 		"shutupnarrator.mixins.json"
