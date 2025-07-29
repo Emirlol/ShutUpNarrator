@@ -6,10 +6,8 @@ repositories {
 	mavenCentral()
 }
 
-val modName = property("mod_name") as String
-val modId = property("mod_id") as String
+version = property("mod_version") as String
 group = property("maven_group") as String
-version = "${libs.versions.modVersion.get()}+${libs.versions.minecraft.get()}"
 
 dependencies {
 	minecraft(libs.minecraft)
@@ -21,7 +19,6 @@ tasks {
 	processResources {
 		val props = mapOf(
 			"version" to version,
-			"minecraft_version" to libs.versions.minecraft.get(),
 			"loader_version" to libs.versions.fabricLoader.get(),
 		)
 		inputs.properties(props)
