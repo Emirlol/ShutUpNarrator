@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "me.ancientri.shutupnarrator.mixins",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"MinecraftClientMixin",
+		"NarratorMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
